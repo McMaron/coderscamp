@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>O mnie</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f1f794851f.js"></script>
+</head>
+<body>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("nav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <div id="banner">
+        <div class="inner">  
+            <p>
+            <h1> A journey <span class="short-quote">of a thousand miles</span> begins</h1><h1 class="no-top-margin"> with a <span class="short-quote">single</span> step.</h1>
+            <h2> ...or a flight.</h2>
+            </p>
+        </div>
+    </div>
+    <nav id="nav" class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a class="home" href="index.html">Home</a> 
+        <a href="#paragliding">Paralotnie</a>
+        <a href="#gory">Góry</a>
+        <a href="#water">Woda</a>
+        <a href="#family">Rodzina</a>              
+    </nav>
+    
+    <div class="page-wrapper">       
+        <section>
+            <div class="flex-content">
+                <div id="gory" class="item1 item odd">
+                    <div class="inneritem1">
+                            <img src="./static/dolina_soczy_przyciete.png" alt="Dolina Soczy">
+                    </div>
+                    <div class="inneritem2">
+                        <h3>Rzeka Socza, Słowenia.</h3>
+                        <p class="opis">Tak, to jej prawdziwy kolor. Zawdzięcza go wapieniowi, po którym płynie.</p>
+                    </div>
+                </div>
+                <div id="family" class="item2 item even">
+                        <div class="inneritem1">
+                            <img src="./static/rodzinka_duze.jpg" alt="Rodzinka">
+                        </div>
+                        <div class="inneritem2">
+                            <h3>Jaka familia jest, każdy widzi.</h3>
+                            <p class="opis">"Family goes first"</p>
+                        </div>
+                </div>
+                <div id="paragliding" class="item3 item odd">
+                        <div class="inneritem1">
+                                <img src="./static/biokovo_przyciete.png" alt="Sleza">
+                        </div>
+                        <div class="inneritem2">
+                            <h3>W pobliżu Makarskiej, Chorwacja.</h3>
+                            <p class="opis">Wybrzeże Adriatyku i górski park narodowy "Biokovo" z wysokości ok. 1000 m.</p>
+                        </div>
+                </div>
+                <div id="water" class="item4 item odd">
+                        <div class="inneritem1">
+                                <img src="./static/kite_przyciete.png" alt="Kite">
+                        </div>
+                        <div class="inneritem2">
+                            <h3>Kitesurfing</h3>
+                            <p class="opis"> Woda i wiatr. Lubię! Ustępująca woda z pespektywy tylnej krawędzi deski. Kite w oddali.</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="links">
+                <a href="#"><i class="fab fa-github-square"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:marcinzuchowski@wp.pl"><i class="fas fa-envelope-square"></i></a>
+            </div>
+            <div class="copyrights">
+                <p>&copy; 2019 by Marcin Żuchowski. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
