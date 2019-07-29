@@ -1,5 +1,5 @@
-font-family: 'Caveat', cursive;
-font-family: 'Amatic SC', cursive;
+/*font-family: 'Caveat', cursive;
+font-family: 'Amatic SC', cursive;*/
 
 * {
     margin: 0;
@@ -13,15 +13,18 @@ body {
     margin: 0;
     width: 100%;   
     background-position: 60%;
-    background-image: url("static/w_dal1_przyciete.png");
+    background-image: url("static/w_dal1_przyciete.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;   
+    
 }
 
 
 #banner {
-
     width: 100%;
     height: 100vh;    
 }
